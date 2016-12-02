@@ -1,0 +1,54 @@
+.logo_img{
+    idth: 60px;
+    height: 79px;
+    display: block;
+    background: url('../img/logo1.png') top center no-repeat;
+    text-indent: -9999px;
+    padding: 0;
+    margin: 0 auto;
+    border: none;
+}
+
+
+p {
+    font-size: 1.2em;
+    line-height: 1.35em;
+    color: #fff; padding: 0;
+    font-family: 'helvetica neue',
+    helvetica, arial,
+    sans-serif; font-weight: 200;
+}
+
+
+.mid_col{
+text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    float: none;
+
+}
+
+
+html, body, .container-table {
+    height: 100%;
+}
+.container-table {
+    display: table;
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content_main
+{
+  min-height: 100%;
+}
+
+.container-fluid {
+    height: 100%;
+    position: absolute;
+    overflow-y: hidden; /* don't show content that exceeds my height */
+}
+
+
